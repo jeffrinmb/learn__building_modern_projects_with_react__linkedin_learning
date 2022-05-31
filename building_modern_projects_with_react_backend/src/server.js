@@ -46,7 +46,7 @@ app.post("/todos", (req, res) => {
   if (text) {
     const insertedTodo = {
       id: uuid(),
-      createdAt: new Date.now(),
+      createdAt: new Date(),
       isCompleted: false,
       text,
     };
