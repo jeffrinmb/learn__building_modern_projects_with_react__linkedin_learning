@@ -1,7 +1,7 @@
 export const getTodos = state => {
-  return state.todos;
+  return state.todos.data;
 };
 
 export const getTodosLoading = state => {
-  return state.isLoading;
+  return state.todos.isLoading;
 };
